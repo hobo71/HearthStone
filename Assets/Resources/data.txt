@@ -1,0 +1,7 @@
+﻿{
+"card1":{"name":"星界游神", "power":3,"atk":2,"life":3,"skill":0,"png":"000星界游神卡图"},
+"card2":{"name":"复仇之矛", "power":4,"atk":2,"life":4,"skill":1,"png":"001复仇之矛卡图"},
+"card3":{"name":"虚空遁地兽", "power":4,"atk":3,"life":2,"skill":2,"png":"002虚空遁地兽卡图"},
+"card4":{"name":"海兽祭司", "power":5,"atk":3,"life":4,"skill":3,"png":"003海兽祭司卡图"},
+"card5":{"name":"典狱长", "power":2,"atk":1,"life":2,"skill":4,"png":"004典狱长卡图"}
+}
