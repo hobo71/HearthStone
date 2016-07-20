@@ -1,5 +1,6 @@
 ﻿/// card类
 /// 属性有
+/// war_id是卡出到场上的id
 /// card_id卡牌id，name卡牌名字，power卡牌能量消耗，atk卡牌攻击力，life卡牌生命， skill卡牌技能id， img卡牌图片的名字
 /// currentatk打牌时即时攻击力， currentlife打牌时即时生命
 /// 方法有
@@ -12,6 +13,11 @@ using System;
 
 namespace BasicCard {
 	public class Card {
+		string war_id;
+		public string War_Id{
+			get{ return war_id;}
+			set{ war_id = value;}
+		}
 		int card_id;
 		public int Card_Id{
 			get{ return card_id;}
@@ -66,14 +72,14 @@ namespace BasicCard {
 			set{ currentAtk = value;}
 		}
 
-		public Card(string id, string name, string power, string atk, string life, string skill, string i){
+		public Card(string id, string name, string power, string atk, string life, string skill, string image){
 			Card_Id = int.Parse(id);
 			Name = name;
 			Power = int.Parse (power);
 			Atk = int.Parse (atk);
 			Life = int.Parse (life);
 			Skill = int.Parse (skill);
-			Img = i;
+			Img = image;
 			CurrentLife = Life;
 			CurrentAtk = Atk;
 		}
